@@ -1,0 +1,246 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,
+ol,
+li{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body{
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    /* background-color: ; */
+}
+.wrapper{
+    /* padding: 30px; */
+    min-height: 60%;
+}
+
+#title_shop{
+    padding-top: 3%;
+}
+
+.image-slider{
+    padding: 30px 0 70px 0;
+}
+
+.image-slider_image{
+    max-width: 100%;
+}
+
+.main{
+    padding: 30px;
+    align-items: center;
+    text-align: right;
+    margin: 0 auto;
+    /* padding-left: 15%; */
+    /* padding-right: 15%; */
+}
+
+
+._tabs{
+    text-align: center;
+    padding:21px;
+    
+}
+
+#shop, #Products, #special{
+    padding:3px 5px;
+    margin:2% ;
+    border-radius: 15px;
+    font-size: 26px;
+    font-family:   -apple-system, BlinkMacSystemFont, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: 800;
+    color: black;
+   
+}
+#shop:hover,
+#Products:hover,
+#special:hover{
+
+box-shadow: 5px 5px 5px 5px grey;
+opacity: 0.7;
+
+}
+#title_shop{
+    font-family: -apple-system, BlinkMacSystemFont,cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+#info{
+    font-size: 20px;
+    text-align: center;
+}
+
+#text_info {
+    font-weight: 900;
+    font-size: 35px;
+    color: red;
+    text-align: center;
+  
+}
+#mask_info{
+    font-size: 15px;
+    border: red solid 1px;
+    background: rgb(3, 233, 3);
+    text-align: center;
+    padding-top: 80px;
+    margin: 15%;
+    padding: 15%;
+    border-radius: 50%;
+    font-weight: bolder;
+   
+}
+.image-slide{
+    padding: 30px 0 70px 0  ;
+}
+.image-slider{
+    text-align: center;
+}
+.image-slider img{    
+    max-width: 100%;
+}
+
+.special_prices{
+    text-align: center;
+}
+.special_prices img{
+    text-align: center;
+}
+
+#main_info{
+    float: right;
+    color: rgb(65, 153, 236);
+    padding-right:40px ;
+    flex:  0 0 auto;
+}
+
+#title_shop{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(65, 153, 236);
+}
+#red{
+    color: red;
+}
+
+.image img{
+    padding: 20px 0;
+    overflow: hidden;
+    max-width: 100%;
+    align-items: center;
+}
+
+.main_items{
+    text-align: center;
+}
+.item{
+    text-align: right;
+}
+
+
+html,body{
+    height:100%;
+}
+
+.wrapper{
+    height:100%;
+    width: 100%;
+}
+
+
+
+.swiper-container{
+display: flex;
+} 
+
+.image-slider_slide{
+    min-width: 0px;
+}
+.special_price_slide{
+    min-width: 0;
+}
+.special_price_slide img{
+    max-width: 100%;
+}
+
+
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after{
+    color: #aaa;
+    font-size: 80px;
+}
+ 
+.image-slider .swiper-pagination{
+    bottom: 0;
+}
+
+.image-slider .swiper-pagination-bullet{
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    background-color: purple;
+}
+
+.about_item{
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+.about_items{
+    padding: 0 50px;
+}
+
+.item_list{
+    padding: 0  20px ;
+}
+
+iframe{
+    max-width:100%;
+    margin: 5% 0;
+}
+
+#specials{
+    color: red;
+    font-weight: 900;
+}
+
+footer{
+
+    margin: 5%  ;
+    padding-bottom: 5%;
+}
+
+
+.body2{
+    background-color: grey;
+
+}
+
+.texColor{
+    color: burlywood;
+}
